@@ -1,0 +1,24 @@
+@media screen and (max-width:576px) {
+    .icon {
+        display: inline;
+        padding: 21px;
+        font-size: 30px;
+    }
+    .nav-item{
+        display: none;
+    }
+     .banner{
+        flex-direction: column;
+        width: 100%;
+     }
+     .banner-title{
+        font-size: 2rem;
+     }
+     .bm .btn-1, .btn-2 {
+        padding: 18px;
+    }
+     .box-t {
+        margin-left: 155px;
+        margin-top: 179px;
+    }
+}
