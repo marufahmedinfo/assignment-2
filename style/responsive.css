@@ -7,7 +7,8 @@
     .nav-item{
         display: none;
     }
-     .banner{
+     .banner, .habit-card{
+
         flex-direction: column;
         width: 100%;
      }
@@ -20,5 +21,11 @@
      .box-t {
         margin-left: 155px;
         margin-top: 179px;
+    }
+    .habit-title{
+        padding: 0px;
+    }
+    .h-card {
+        padding: 0px 90px;
     }
 }

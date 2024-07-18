@@ -149,10 +149,20 @@ nav, .banner{
     height: 30px;
     width: 30px;
 }
-/* main related style  */
-
-
-
+/* ------------------------main related style  */
+/* habits related style  */
+.habit-title {
+    text-align: center;
+    padding: 0px 360px;
+    margin-bottom: 48px;
+}
+.h-card {
+    padding: 0px 32px;
+    text-align: center;
+}
+.h-card img {
+    border-radius: 50%;
+}
 
 
 
