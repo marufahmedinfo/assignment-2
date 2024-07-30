@@ -1,31 +1,81 @@
 @media screen and (max-width:576px) {
+    body{
+
+    }
     .icon {
         display: inline;
         padding: 21px;
         font-size: 30px;
     }
+    .navbar {
+        margin-right: 26px;
+    }
     .nav-item{
         display: none;
     }
-     .banner, .habit-card{
+    .nav-links{
+        border: none;
+    }
+     .banner, .habit-card, .runex{
 
         flex-direction: column;
         width: 100%;
      }
-     .banner-title{
+     .banner-title {
         font-size: 2rem;
-     }
-     .bm .btn-1, .btn-2 {
-        padding: 18px;
+        margin-left: -27px;
     }
-     .box-t {
-        margin-left: 155px;
+     .banner-description {
+        width: 256px;
+        margin-left: -25px;
+    }
+    .bm .btn-1, .btn-2 {
+        padding: 15px;
+    }
+    .bm {
+        
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .box-t {
+        margin-left: 117px;
         margin-top: 179px;
     }
     .habit-title{
         padding: 0px;
+        width: 100%;
     }
     .h-card {
         padding: 0px 90px;
     }
+    .runex-caption {
+        margin-right: 0px;
+        margin-left: -48px;
+        margin-bottom: -394px;
+    }
+    .runex-caption h1 {
+        font-size: 39px;
+        font-weight: 900;
+    }
+    .runex-caption p {
+        width: 322px;
+        font-size: 13px;
+    }
+    .runex-caption button {
+        width: 308px;
+    }
+    .runex {
+        padding: 55px;
+        margin: 10px;
+        width: 216px;
+        margin-left: 24px;
+    }
+    .runex-img img {
+        margin-left: -24px;
+        width: 100%;
+    }
+
+
+
 }

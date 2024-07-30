@@ -36,7 +36,7 @@ nav, .banner{
     font-weight: 700;
 }
 .bg {
-    background: linear-gradient(20.00deg, rgb(17, 17, 17), rgba(136, 135, 135, 0.28) 100%);
+    background: linear-gradient(20.00deg, rgb(17, 17, 17), rgba(127, 127, 127, 0.06) 100%);
 }
 .italic{
     font-family: Kunstler Script;
@@ -160,13 +160,43 @@ nav, .banner{
     padding: 0px 32px;
     text-align: center;
 }
+.h-card h5{
+    font-size: 1rem;
+}
 .h-card img {
     border-radius: 50%;
+    border: 1px solid #fff;
 }
+/* Run  and extra related style  */
 
-
-
-
+.runex {
+    justify-content: center;
+    gap: 443px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 54px;
+}
+.runex-caption h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.runex-caption p{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 443px;
+}
+.runex-caption button {
+    background-color: rgb(230, 83, 60);
+    color: white;
+    padding: 15px 39px;
+    font-size: 23px;
+    border-radius: 31px;
+    border: none;
+    margin-top: 35px;
+}
+.runex-img img {
+    border-radius: 20px;
+}
 
 
 
