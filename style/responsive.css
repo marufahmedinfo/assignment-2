@@ -2,10 +2,15 @@
     body{
 
     }
-    .icon {
+    .icon{
         display: inline;
         padding: 21px;
         font-size: 30px;
+    }
+    #icon{
+        font-size: 15px;
+        align-items: center;
+        display: inline;
     }
     .navbar {
         margin-right: 26px;
@@ -16,7 +21,7 @@
     .nav-links{
         border: none;
     }
-     .banner, .habit-card, .runex{
+     .banner, .habit-card, .runex, .bmi-forms{
 
         flex-direction: column;
         width: 100%;
@@ -39,12 +44,26 @@
         width: 100%;
     }
     .box-t {
-        margin-left: 117px;
-        margin-top: 179px;
+        margin-left: 154px;
+        margin-top: -84px;
     }
-    .habit-title{
+    .box-b {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        width: 200px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: -316px;
+    }
+    .habit-title, .bmi-title{
         padding: 0px;
         width: 100%;
+    }
+    .habit-title h1, .bmi-title h1{
+        font-size: 2rem;
     }
     .h-card {
         padding: 0px 90px;
@@ -75,7 +94,13 @@
         margin-left: -24px;
         width: 100%;
     }
-
-
+.gm{
+    font-size: 1rem;
+}
+.bmi-forms {
+    height: 100%;
+    width: 109%;
+    padding-bottom: 17px;
+}
 
 }
