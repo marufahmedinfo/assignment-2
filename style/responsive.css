@@ -1,7 +1,5 @@
 @media screen and (max-width:576px) {
-    body{
 
-    }
     .icon{
         display: inline;
         padding: 21px;
@@ -14,6 +12,7 @@
     }
     .navbar {
         margin-right: 26px;
+        width: 100%;
     }
     .nav-item{
         display: none;
@@ -21,11 +20,10 @@
     .nav-links{
         border: none;
     }
-     .banner, .habit-card, .runex, .bmi-forms{
-
+    .banner, .habit-card, .runex, .bmi-forms {
         flex-direction: column;
         width: 100%;
-     }
+    }
      .banner-title {
         font-size: 2rem;
         margin-left: -27px;
@@ -36,9 +34,6 @@
     }
     .bm .btn-1, .btn-2 {
         padding: 15px;
-    }
-    .bm {
-        
     }
     .banner-img img {
         width: 100%;
@@ -58,11 +53,12 @@
         justify-content: center;
         margin-top: -316px;
     }
-    .habit-title, .bmi-title{
+    .habit-title, .bmi-title, .team-title {
         padding: 0px;
         width: 100%;
+        /* margin-left: 21px; */
     }
-    .habit-title h1, .bmi-title h1{
+    .habit-title h1, .bmi-title h1, .team-title h1{
         font-size: 2rem;
     }
     .h-card {
@@ -85,22 +81,31 @@
         width: 308px;
     }
     .runex {
-        padding: 55px;
+        padding: 12px 54px 12px 60px;
         margin: 10px;
         width: 216px;
-        margin-left: 24px;
+        margin-left: 46px;
     }
     .runex-img img {
-        margin-left: -24px;
         width: 100%;
     }
 .gm{
     font-size: 1rem;
 }
+.forms-container {
+    width: 83%;
+    padding: 15px;
+}
 .bmi-forms {
     height: 100%;
-    width: 109%;
+    width: 100%;
     padding-bottom: 17px;
+}
+.team-description {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 8px 0px;
+    margin-left: 42px;
+    margin-right: 42px;
 }
 
 }

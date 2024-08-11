@@ -213,6 +213,7 @@ nav, .banner{
     background: rgb(34, 34, 34);
     height: 500px;
     align-items: center;
+    width: 100%;
 }
 .tables{
     width: 100%;
@@ -230,7 +231,7 @@ nav, .banner{
      color: rgba(255, 255, 255, 0.5);
 }
 .forms-container  input, select {
-    width: 376px;
+    width: 39%;
     height: 44px;
     margin: 11px 18px 11px 02px;
     border-radius: 8px;
@@ -259,11 +260,30 @@ nav, .banner{
     border: none;
     margin-top: 35px;
 }
+/*  Meet our Team related style  */
+.team-title{
+    text-align: center;
+    padding: 0px 360px;
+    margin-bottom: 48px;
+}
 
-
-
-
-
-
-
-
+.team-description{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+}
+.trainer {
+    height: 134%;
+}
+.name-d {
+    position: relative;
+    margin-top: -142px;
+    margin: -107px 0px 0px 58px;
+}
+.trainer img {
+    width: 90%;
+    height: 67%;
+    margin: 22px 0px 0px 22px;
+    border-radius: 20px;
+}
