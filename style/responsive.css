@@ -86,7 +86,7 @@
         width: 216px;
         margin-left: 46px;
     }
-    .runex-img img {
+    .runex-img img { 
         width: 100%;
     }
 .gm{
@@ -107,5 +107,17 @@
     margin-left: 42px;
     margin-right: 42px;
 }
+
+.footer-top {
+    grid-template-columns: repeat(1, 1fr);
+}
+.f-top-1 {
+    padding-left: 19px;
+}
+.f-top-3, .f-top-2 {
+    padding-right: 220px;
+}
+
+
 
 }
