@@ -179,7 +179,7 @@ nav, .banner{
     gap: 443px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    padding: 54px;
+    padding: 20px 0px 20px 0px;
 }
 .runex-caption h1{
     font-size: 4rem;
@@ -287,6 +287,49 @@ nav, .banner{
     margin: 22px 0px 0px 22px;
     border-radius: 20px;
 }
+/* Our gym club section related style  */
+.hous {
+    background-color: rgb(34, 34, 34);
+    margin-top: 63px;
+    padding: 30px;
+    border-radius: 21px;
+}
+.home-1{
+    width: 100%;
+}
+.home-1 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 76px;
+}
+.home-1 button {
+    background-color: rgb(230, 83, 60);
+    color: white;
+    padding: 15px 39px;
+    font-size: 23px;
+    border-radius: 31px;
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 22px;
+}
+.home-2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+
+/* .lnk-1{
+    width: 100%;
+
+}
+.lnk-2{
+    width: 600;
+} */
+
+
+
+
+
 /* -------footer section related style  */
 footer {
     background-color: rgb(34, 34, 34);
