@@ -68,7 +68,6 @@ nav, .banner{
 .nav-item{
     list-style: none;
     margin-right: 30px;
-
 }
 .nav-link{
     text-decoration: none;
@@ -78,7 +77,7 @@ nav, .banner{
     border-radius: 5px;
     font-size: 1.2rem;
 }
-.ex-c{
+.ex-c:hover{
     border-radius: 30px;
     background: rgb(230, 83, 60);
 }
